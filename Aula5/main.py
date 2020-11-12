@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[31]:
-
-
 import json
 import urllib.request
 import time
@@ -12,6 +6,8 @@ import careteam
 import paciente
 import bloodpress
 import sensor
+
+#http://nosql.hpeixoto.me/api/
 
 # download raw json object
 url = "http://nosql.hpeixoto.me/api/sensor/3001"
