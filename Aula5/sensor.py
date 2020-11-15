@@ -22,7 +22,7 @@ class Sensor:
     def insert(self):
 
         # construct an insert statement that add a new row to the billing_headers table
-        sql = ('insert into medico(self.id,self.num_sensor,self.n_of_sensors,self.type_of_sensor,self.service_cod,self.service_desc,self.admdate,'
+        sql = ('insert into sensor(self.id,self.num_sensor,self.n_of_sensors,self.type_of_sensor,self.service_cod,self.service_desc,self.admdate,'
                'self.bed,self.bodytemp,self.bpm,self.sato2,self.timestamp,self.id_blood, self.id_pac) '
                'values(:self.id,:self.num_sensor,:self.n_of_sensors,:self.type_of_sensor,:self.service_cod,:self.service_desc,:self.amddate,'
                ':self.bed,:self.bodytemp,:self.bpm,:self.sato2,:self.timestamp,:self.id_blood,:self.id_pac)')

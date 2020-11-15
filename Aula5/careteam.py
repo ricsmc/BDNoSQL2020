@@ -10,7 +10,7 @@ class Careteam:
     def insert(self):
 
         # construct an insert statement that add a new row to the billing_headers table
-        sql = ('insert into medico(self.id_medico, self.id_sensor) '
+        sql = ('insert into careteam(self.id_medico, self.id_sensor) '
                'values(:self.id_medico,:self.id_sensor)')
 
         try:

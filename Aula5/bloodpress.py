@@ -10,7 +10,7 @@ class Bloodpress:
     def insert(self):
 
         # construct an insert statement that add a new row to the billing_headers table
-        sql = ('insert into medico(self.id, self.systolic, self.diastolic) '
+        sql = ('insert into bloodpress(self.id, self.systolic, self.diastolic) '
                'values(:self.id,:self.systolic,:self.diastolic)')
 
         try:
